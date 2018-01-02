@@ -202,7 +202,6 @@
     <jar href="lib/tomcat-embed-logging-juli-8.5.2.jar"/>
     <jar href="lib/trove-1.0.2.jar"/>
     <jar href="lib/werken-opt-0.9.4.jar"/>
-    <jar href="lib/xmlbeans-2.6.0.jar"/>
     <jar href="lib/xmlgraphics-commons-1.4.jar"/>
     <jar href="lib/xz-1.5.jar"/>
     <property name="java.security.policy" value="policy.all"/>
