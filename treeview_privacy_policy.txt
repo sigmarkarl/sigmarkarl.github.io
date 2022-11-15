@@ -1,0 +1,2 @@
+The apps displays an ad banner from Google AdMob.
+Otherwise no user information is collected by this app.
