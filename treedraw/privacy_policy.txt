@@ -1,0 +1,2 @@
+The apps displays ad banners from Google AdSense.
+Otherwise no user information is collected by this app.
