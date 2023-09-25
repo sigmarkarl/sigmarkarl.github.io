@@ -1,1 +1,1 @@
-import{a,b,c,d,e}from"ofas-interactive/build/_shared/chunk-Z2BXFRWT.js";import"ofas-interactive/build/_shared/chunk-UCQCRCSK.js";import"ofas-interactive/build/_shared/chunk-RAQ24GF6.js";e();export{d as css,b as cssCompletionSource,c as cssLanguage,a as defineCSSCompletionSource};
+import{a,b,c,d,e}from"/ofas-interactive/build/_shared/chunk-Z2BXFRWT.js";import"/ofas-interactive/build/_shared/chunk-UCQCRCSK.js";import"/ofas-interactive/build/_shared/chunk-RAQ24GF6.js";e();export{d as css,b as cssCompletionSource,c as cssLanguage,a as defineCSSCompletionSource};
