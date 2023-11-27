@@ -27,11 +27,11 @@
         {
           "name": "vscode-plugin-1.0.0.jar",
           "url": "vscode-plugin-1.0.0.jar",
-          "size": 14283,
-          "sha512": "cd18ebce573b7ca13d650d8257e19c64cb54b8a784e798ddd7f7b007dcafa696afae189bc760cc981246e5a279b5944de43114f0996fe4534aaf55f8a7b68d65",
-          "sha256": "2ae629cda572114af168d904013878d62a627c5c2f90114c51506a2ebc078329",
-          "sha1": "175e1c76111cf4f9f4965fa858d9a9e655a91fa7",
-          "md5": "458cd08653710fb43054dfb3c8d9d37f"
+          "size": 15233,
+          "sha512": "9ccb153ca9f6189b48b024b589beee916a0d5fb977a7d36930070e181803a988a5c59f2156b21cbfe9e79445b8693b99afee08f39e4308ed283d4d9d1006dba6",
+          "sha256": "bb726dbe503eb4415dcd1b4c0dcf3d7199c6db2a7e7df0556989b1565dda765d",
+          "sha1": "5f59cae0ad60766cc0111af8e07dfa809455dc22",
+          "md5": "5280e00ae51b71fc3d0f3e8ffa39aa7a"
         }
       ]
     },
@@ -51,17 +51,24 @@
           "version": {
             "requires": "3.5.1-SNAPSHOT"
           }
+        },
+        {
+          "group": "io.undertow",
+          "module": "undertow-core",
+          "version": {
+            "requires": "2.3.10.Final"
+          }
         }
       ],
       "files": [
         {
           "name": "vscode-plugin-1.0.0.jar",
           "url": "vscode-plugin-1.0.0.jar",
-          "size": 14283,
-          "sha512": "cd18ebce573b7ca13d650d8257e19c64cb54b8a784e798ddd7f7b007dcafa696afae189bc760cc981246e5a279b5944de43114f0996fe4534aaf55f8a7b68d65",
-          "sha256": "2ae629cda572114af168d904013878d62a627c5c2f90114c51506a2ebc078329",
-          "sha1": "175e1c76111cf4f9f4965fa858d9a9e655a91fa7",
-          "md5": "458cd08653710fb43054dfb3c8d9d37f"
+          "size": 15233,
+          "sha512": "9ccb153ca9f6189b48b024b589beee916a0d5fb977a7d36930070e181803a988a5c59f2156b21cbfe9e79445b8693b99afee08f39e4308ed283d4d9d1006dba6",
+          "sha256": "bb726dbe503eb4415dcd1b4c0dcf3d7199c6db2a7e7df0556989b1565dda765d",
+          "sha1": "5f59cae0ad60766cc0111af8e07dfa809455dc22",
+          "md5": "5280e00ae51b71fc3d0f3e8ffa39aa7a"
         }
       ]
     }
