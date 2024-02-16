@@ -28,10 +28,10 @@
           "name": "spark-netapp-shuffle-1.0.0.jar",
           "url": "spark-netapp-shuffle-1.0.0.jar",
           "size": 109755,
-          "sha512": "85bc8a762cac22c422fad9a6e3fd84f8473ee4f57dfb5ae0936007d60ed2e7e06ce6f26acec92c8418d953cbb5e50296854b3f7932e448cc39fbfb971d2c19b7",
-          "sha256": "02c9ce90da4a26bb99850ef00f05bd9aa83b32654958d8c480d29c70ae0569f9",
-          "sha1": "7f139bbb302e11f1f0cf8722fcfd267aa4dee3f3",
-          "md5": "bf43a80da091d0b52094278a49110ea4"
+          "sha512": "555e248156afca105af392c88523e40cce349f0acf1865be3e9cecbc6a271b7ffcd2b87f0c0ce312d1ea333bf7235f59f8e1880a521168dfbd120696bf964e34",
+          "sha256": "25e200f614b3c0a666b701189e587a764640965e10d47657595366bf4d1b3ea0",
+          "sha1": "31882609e46501aeea3ccdba74ac0903788a5e65",
+          "md5": "b83f75f6a7eb065fef8360f154405ad3"
         }
       ]
     },
@@ -107,10 +107,10 @@
           "name": "spark-netapp-shuffle-1.0.0.jar",
           "url": "spark-netapp-shuffle-1.0.0.jar",
           "size": 109755,
-          "sha512": "85bc8a762cac22c422fad9a6e3fd84f8473ee4f57dfb5ae0936007d60ed2e7e06ce6f26acec92c8418d953cbb5e50296854b3f7932e448cc39fbfb971d2c19b7",
-          "sha256": "02c9ce90da4a26bb99850ef00f05bd9aa83b32654958d8c480d29c70ae0569f9",
-          "sha1": "7f139bbb302e11f1f0cf8722fcfd267aa4dee3f3",
-          "md5": "bf43a80da091d0b52094278a49110ea4"
+          "sha512": "555e248156afca105af392c88523e40cce349f0acf1865be3e9cecbc6a271b7ffcd2b87f0c0ce312d1ea333bf7235f59f8e1880a521168dfbd120696bf964e34",
+          "sha256": "25e200f614b3c0a666b701189e587a764640965e10d47657595366bf4d1b3ea0",
+          "sha1": "31882609e46501aeea3ccdba74ac0903788a5e65",
+          "md5": "b83f75f6a7eb065fef8360f154405ad3"
         }
       ]
     }
