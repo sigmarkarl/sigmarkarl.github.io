@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "spark-netapp-shuffle",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spark-netapp-shuffle-1.0.0.jar",
+          "url": "spark-netapp-shuffle-1.0.0.jar",
+          "size": 109755,
+          "sha512": "85bc8a762cac22c422fad9a6e3fd84f8473ee4f57dfb5ae0936007d60ed2e7e06ce6f26acec92c8418d953cbb5e50296854b3f7932e448cc39fbfb971d2c19b7",
+          "sha256": "02c9ce90da4a26bb99850ef00f05bd9aa83b32654958d8c480d29c70ae0569f9",
+          "sha1": "7f139bbb302e11f1f0cf8722fcfd267aa4dee3f3",
+          "md5": "bf43a80da091d0b52094278a49110ea4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "vscode-plugin",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-core_2.12",
+          "version": {
+            "requires": "3.5.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-sql_2.12",
+          "version": {
+            "requires": "3.5.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-kubernetes_2.12",
+          "version": {
+            "requires": "3.5.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-connect_2.12",
+          "version": {
+            "requires": "3.5.2-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.hadoop",
+          "module": "hadoop-aws",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "org.apache.hadoop",
+          "module": "hadoop-hdfs",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "org.scala-lang.modules",
+          "module": "scala-collection-compat_2.12",
+          "version": {
+            "requires": "2.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spark-netapp-shuffle-1.0.0.jar",
+          "url": "spark-netapp-shuffle-1.0.0.jar",
+          "size": 109755,
+          "sha512": "85bc8a762cac22c422fad9a6e3fd84f8473ee4f57dfb5ae0936007d60ed2e7e06ce6f26acec92c8418d953cbb5e50296854b3f7932e448cc39fbfb971d2c19b7",
+          "sha256": "02c9ce90da4a26bb99850ef00f05bd9aa83b32654958d8c480d29c70ae0569f9",
+          "sha1": "7f139bbb302e11f1f0cf8722fcfd267aa4dee3f3",
+          "md5": "bf43a80da091d0b52094278a49110ea4"
+        }
+      ]
+    }
+  ]
+}
