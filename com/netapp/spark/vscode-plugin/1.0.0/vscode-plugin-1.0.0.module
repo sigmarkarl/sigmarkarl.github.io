@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "vscode-plugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vscode-plugin-1.0.0.jar",
+          "url": "vscode-plugin-1.0.0.jar",
+          "size": 15380,
+          "sha512": "5b07d9e4b3eb161cf2d4902b932d549bbdbf57ebabb69318e344195a2f30c4bef1ca169952c2b2ab4af894f1940760e15a77e6a128b2570df0a2c22577b3b358",
+          "sha256": "d1faf9c47c6bd30802aa5db167daf5156c10135cfded9a8359cf049d287b4a30",
+          "sha1": "501c1e957836d8014b7bcefdb69b60227a00b520",
+          "md5": "f3d35eddf5a8cbfd199aea4a252754e8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.spark",
+          "module": "spark-core_2.12",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.undertow",
+          "module": "undertow-core",
+          "version": {
+            "requires": "2.3.10.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vscode-plugin-1.0.0.jar",
+          "url": "vscode-plugin-1.0.0.jar",
+          "size": 15380,
+          "sha512": "5b07d9e4b3eb161cf2d4902b932d549bbdbf57ebabb69318e344195a2f30c4bef1ca169952c2b2ab4af894f1940760e15a77e6a128b2570df0a2c22577b3b358",
+          "sha256": "d1faf9c47c6bd30802aa5db167daf5156c10135cfded9a8359cf049d287b4a30",
+          "sha1": "501c1e957836d8014b7bcefdb69b60227a00b520",
+          "md5": "f3d35eddf5a8cbfd199aea4a252754e8"
+        }
+      ]
+    }
+  ]
+}
