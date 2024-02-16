@@ -56,28 +56,28 @@
           "group": "org.apache.spark",
           "module": "spark-core_2.12",
           "version": {
-            "requires": "3.5.2-SNAPSHOT"
+            "requires": "3.5.0"
           }
         },
         {
           "group": "org.apache.spark",
           "module": "spark-sql_2.12",
           "version": {
-            "requires": "3.5.2-SNAPSHOT"
+            "requires": "3.5.0"
           }
         },
         {
           "group": "org.apache.spark",
           "module": "spark-kubernetes_2.12",
           "version": {
-            "requires": "3.5.2-SNAPSHOT"
+            "requires": "3.5.0"
           }
         },
         {
           "group": "org.apache.spark",
           "module": "spark-connect_2.12",
           "version": {
-            "requires": "3.5.2-SNAPSHOT"
+            "requires": "3.5.0"
           }
         },
         {
