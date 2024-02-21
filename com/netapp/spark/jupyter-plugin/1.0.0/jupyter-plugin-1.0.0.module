@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "jupyter-plugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jupyter-plugin-1.0.0.jar",
+          "url": "jupyter-plugin-1.0.0.jar",
+          "size": 10881,
+          "sha512": "f1c2678033ed59e65eb616e8d3e19a8692e53fe1a7d39c51f3ecd8afde7d16e8f63a5ef6c4c3d2dc4a4a70d46d48bd8694943ffdd097c10e2c55b77dc109776a",
+          "sha256": "a3b162aa94199f2afcebd9008b62b3ac8abf0a223325dc52d989468316290fc5",
+          "sha1": "02510966228b63b9eee9eb86ee59b3b9f5479416",
+          "md5": "7937ee95b453416f5a9d49bb279f12c4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "common",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-core_2.12",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-sql_2.12",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.fabric8",
+          "module": "kubernetes-client",
+          "version": {
+            "requires": "6.7.2"
+          }
+        },
+        {
+          "group": "io.fabric8",
+          "module": "kubernetes-client-api",
+          "version": {
+            "requires": "6.7.2"
+          }
+        },
+        {
+          "group": "io.fabric8",
+          "module": "kubernetes-httpclient-okhttp",
+          "version": {
+            "requires": "6.7.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jupyter-plugin-1.0.0.jar",
+          "url": "jupyter-plugin-1.0.0.jar",
+          "size": 10881,
+          "sha512": "f1c2678033ed59e65eb616e8d3e19a8692e53fe1a7d39c51f3ecd8afde7d16e8f63a5ef6c4c3d2dc4a4a70d46d48bd8694943ffdd097c10e2c55b77dc109776a",
+          "sha256": "a3b162aa94199f2afcebd9008b62b3ac8abf0a223325dc52d989468316290fc5",
+          "sha1": "02510966228b63b9eee9eb86ee59b3b9f5479416",
+          "md5": "7937ee95b453416f5a9d49bb279f12c4"
+        }
+      ]
+    }
+  ]
+}
