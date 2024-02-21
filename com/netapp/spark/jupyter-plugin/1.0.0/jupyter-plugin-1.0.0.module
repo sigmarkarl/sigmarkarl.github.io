@@ -27,11 +27,11 @@
         {
           "name": "jupyter-plugin-1.0.0.jar",
           "url": "jupyter-plugin-1.0.0.jar",
-          "size": 10880,
-          "sha512": "1f194fad00aecccfef6d0ba8a6c9f10e6205acc5d7fa6624be205a1178550ec55cec199976d019e42ea7be8e280354f7329857e8ad90c0f32411b041ec22b7b8",
-          "sha256": "726b613e51598ac5d617d893ff95a6f325d80377f7008d611697c4ce4f887e7b",
-          "sha1": "1de64a5a679654229de4fe5c60c212ca63004226",
-          "md5": "1f4afd83844ddcd131e14306a635a83e"
+          "size": 11712,
+          "sha512": "467d72d64bc24ece508f2daa854eb3ef9539a2ca38dea3b6640d08dc332bc1323e6cc635ac85a68e73c784d0da0db3b38b7640bc5a75a1830d5add89cc9b21ff",
+          "sha256": "d54c8cb96dff6c032b8a1a006d86f97423576a063d97a548c2dfcd5d5d6c7938",
+          "sha1": "f630fc4d3e2789c7b9400dcbc96b4dcf3b57f0f0",
+          "md5": "0cd8053a643b3dccaaa276906037680d"
         }
       ]
     },
@@ -92,11 +92,11 @@
         {
           "name": "jupyter-plugin-1.0.0.jar",
           "url": "jupyter-plugin-1.0.0.jar",
-          "size": 10880,
-          "sha512": "1f194fad00aecccfef6d0ba8a6c9f10e6205acc5d7fa6624be205a1178550ec55cec199976d019e42ea7be8e280354f7329857e8ad90c0f32411b041ec22b7b8",
-          "sha256": "726b613e51598ac5d617d893ff95a6f325d80377f7008d611697c4ce4f887e7b",
-          "sha1": "1de64a5a679654229de4fe5c60c212ca63004226",
-          "md5": "1f4afd83844ddcd131e14306a635a83e"
+          "size": 11712,
+          "sha512": "467d72d64bc24ece508f2daa854eb3ef9539a2ca38dea3b6640d08dc332bc1323e6cc635ac85a68e73c784d0da0db3b38b7640bc5a75a1830d5add89cc9b21ff",
+          "sha256": "d54c8cb96dff6c032b8a1a006d86f97423576a063d97a548c2dfcd5d5d6c7938",
+          "sha1": "f630fc4d3e2789c7b9400dcbc96b4dcf3b57f0f0",
+          "md5": "0cd8053a643b3dccaaa276906037680d"
         }
       ]
     }
