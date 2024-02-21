@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "jupyter-plugin-1.0.0.jar",
           "url": "jupyter-plugin-1.0.0.jar",
-          "size": 10881,
-          "sha512": "f1c2678033ed59e65eb616e8d3e19a8692e53fe1a7d39c51f3ecd8afde7d16e8f63a5ef6c4c3d2dc4a4a70d46d48bd8694943ffdd097c10e2c55b77dc109776a",
-          "sha256": "a3b162aa94199f2afcebd9008b62b3ac8abf0a223325dc52d989468316290fc5",
-          "sha1": "02510966228b63b9eee9eb86ee59b3b9f5479416",
-          "md5": "7937ee95b453416f5a9d49bb279f12c4"
+          "size": 10882,
+          "sha512": "bf8f421c29ae2918499b20a6e778fb4a81fd3ae79bf4a7cdf3f22d72126ef4284cadf4d08132f20a3c925a614e2993a8c9adaccb75cb2ec64ee7752e33d464a1",
+          "sha256": "312de0bbc8440386c5fee92e0f675e4f2e40cf63dd78d07c140bbf232b27289b",
+          "sha1": "96c5b82254601303eb964089eda29f1766a291a0",
+          "md5": "6538feb484a92505b0732616b90a33b2"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -92,11 +92,11 @@
         {
           "name": "jupyter-plugin-1.0.0.jar",
           "url": "jupyter-plugin-1.0.0.jar",
-          "size": 10881,
-          "sha512": "f1c2678033ed59e65eb616e8d3e19a8692e53fe1a7d39c51f3ecd8afde7d16e8f63a5ef6c4c3d2dc4a4a70d46d48bd8694943ffdd097c10e2c55b77dc109776a",
-          "sha256": "a3b162aa94199f2afcebd9008b62b3ac8abf0a223325dc52d989468316290fc5",
-          "sha1": "02510966228b63b9eee9eb86ee59b3b9f5479416",
-          "md5": "7937ee95b453416f5a9d49bb279f12c4"
+          "size": 10882,
+          "sha512": "bf8f421c29ae2918499b20a6e778fb4a81fd3ae79bf4a7cdf3f22d72126ef4284cadf4d08132f20a3c925a614e2993a8c9adaccb75cb2ec64ee7752e33d464a1",
+          "sha256": "312de0bbc8440386c5fee92e0f675e4f2e40cf63dd78d07c140bbf232b27289b",
+          "sha1": "96c5b82254601303eb964089eda29f1766a291a0",
+          "md5": "6538feb484a92505b0732616b90a33b2"
         }
       ]
     }
