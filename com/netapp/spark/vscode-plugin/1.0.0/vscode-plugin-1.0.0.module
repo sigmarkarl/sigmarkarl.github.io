@@ -27,11 +27,11 @@
         {
           "name": "vscode-plugin-1.0.0.jar",
           "url": "vscode-plugin-1.0.0.jar",
-          "size": 15380,
-          "sha512": "df7f5c5a04398eed831d1383952e73bffd637171a8de1217ba25b91958c59888b3f81bf92398fff9386f198b6e26f84891f43061db6ddc875644ddf7566b178e",
-          "sha256": "e19b1842c567d7c5ce10b1e9454dfc6b4bd946ea2ef8d761341c6dbb86e30995",
-          "sha1": "9ece388a9ded141fa5724444525d4751c577ec6d",
-          "md5": "6723da5bfd2d10bc69f9710a8b22d33c"
+          "size": 16289,
+          "sha512": "87c51a34f444ea196f8afb1e29947387ee172b8a88ac0e7c4c37c892a6bca3d3f4d8eaeb25007d65c5c5067edf803c99ee17f285a438d86d1e88c41507714a52",
+          "sha256": "1b01fb26598f45b17279e7eecb7a2bd7832b30f769c6c3ee82429df7993c4c95",
+          "sha1": "dce433f20f112b3e671de0a73308cd8185ac75cc",
+          "md5": "3430425da229d6819b7bf1ae01416f99"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "group": "org.apache.spark",
           "module": "spark-core_2.12",
           "version": {
-            "requires": "3.5.0"
+            "requires": "3.5.2-SNAPSHOT"
           }
         },
         {
@@ -64,11 +64,11 @@
         {
           "name": "vscode-plugin-1.0.0.jar",
           "url": "vscode-plugin-1.0.0.jar",
-          "size": 15380,
-          "sha512": "df7f5c5a04398eed831d1383952e73bffd637171a8de1217ba25b91958c59888b3f81bf92398fff9386f198b6e26f84891f43061db6ddc875644ddf7566b178e",
-          "sha256": "e19b1842c567d7c5ce10b1e9454dfc6b4bd946ea2ef8d761341c6dbb86e30995",
-          "sha1": "9ece388a9ded141fa5724444525d4751c577ec6d",
-          "md5": "6723da5bfd2d10bc69f9710a8b22d33c"
+          "size": 16289,
+          "sha512": "87c51a34f444ea196f8afb1e29947387ee172b8a88ac0e7c4c37c892a6bca3d3f4d8eaeb25007d65c5c5067edf803c99ee17f285a438d86d1e88c41507714a52",
+          "sha256": "1b01fb26598f45b17279e7eecb7a2bd7832b30f769c6c3ee82429df7993c4c95",
+          "sha1": "dce433f20f112b3e671de0a73308cd8185ac75cc",
+          "md5": "3430425da229d6819b7bf1ae01416f99"
         }
       ]
     }
