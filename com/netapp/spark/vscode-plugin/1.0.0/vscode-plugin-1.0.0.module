@@ -27,11 +27,11 @@
         {
           "name": "vscode-plugin-1.0.0.jar",
           "url": "vscode-plugin-1.0.0.jar",
-          "size": 16415,
-          "sha512": "b6cafbf4c02215ee49b220e85807dc21f642441618d9b621a038d72a8fdacc6e06f987608981e8718b6a3379c1091c2f459f85d72b0df9b47d37d476e2e22fbf",
-          "sha256": "7869052a5f0b4760e852dc7e05836aaf4d224718eaadfbbcb23e79fc4b097803",
-          "sha1": "30e3d4144315f426c4c828fb75ddda7525f53d43",
-          "md5": "504f4e79f1dcc805bdadd5304854a6d5"
+          "size": 16470,
+          "sha512": "f5cbbe1b82ac106116d561c27d9b7598864bfce33480ee38fe5203bca1d8f609cbcdedf61b6d44fee4014bc51f16487ab232c993508d9ef22aa9cfba17762627",
+          "sha256": "ff4f937a600da2b6fa3dd4e9d076a7b2e8bdbc151f93901532fcbbb6511b82b7",
+          "sha1": "ae9d6999edbe45d9ab16d19d1d9f8e38cdfb28c2",
+          "md5": "896bd6784e084bf3b447264daccdc70f"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "vscode-plugin-1.0.0.jar",
           "url": "vscode-plugin-1.0.0.jar",
-          "size": 16415,
-          "sha512": "b6cafbf4c02215ee49b220e85807dc21f642441618d9b621a038d72a8fdacc6e06f987608981e8718b6a3379c1091c2f459f85d72b0df9b47d37d476e2e22fbf",
-          "sha256": "7869052a5f0b4760e852dc7e05836aaf4d224718eaadfbbcb23e79fc4b097803",
-          "sha1": "30e3d4144315f426c4c828fb75ddda7525f53d43",
-          "md5": "504f4e79f1dcc805bdadd5304854a6d5"
+          "size": 16470,
+          "sha512": "f5cbbe1b82ac106116d561c27d9b7598864bfce33480ee38fe5203bca1d8f609cbcdedf61b6d44fee4014bc51f16487ab232c993508d9ef22aa9cfba17762627",
+          "sha256": "ff4f937a600da2b6fa3dd4e9d076a7b2e8bdbc151f93901532fcbbb6511b82b7",
+          "sha1": "ae9d6999edbe45d9ab16d19d1d9f8e38cdfb28c2",
+          "md5": "896bd6784e084bf3b447264daccdc70f"
         }
       ]
     }
