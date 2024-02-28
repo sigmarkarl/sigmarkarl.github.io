@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "connect",
+    "version": "1.2.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "connect-1.2.9.jar",
+          "url": "connect-1.2.9.jar",
+          "size": 1023,
+          "sha512": "4fac5e49b0783f8540731dba567a5a1e311b93666f6a1a11a97fa4fe678c32b2fe443add736dd2faf999357b3a3b431caca373970f226426f613685d85153065",
+          "sha256": "9334a2f909a7feaee20fd8d7ef54a5947f786ad246c9a85dd3bfdfc001ab268f",
+          "sha1": "66d16c8af00d434db0584fe8620f19a1aa6e5475",
+          "md5": "814a284481fddd5017f8b9885b981a13"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "connect-1.2.9.jar",
+          "url": "connect-1.2.9.jar",
+          "size": 1023,
+          "sha512": "4fac5e49b0783f8540731dba567a5a1e311b93666f6a1a11a97fa4fe678c32b2fe443add736dd2faf999357b3a3b431caca373970f226426f613685d85153065",
+          "sha256": "9334a2f909a7feaee20fd8d7ef54a5947f786ad246c9a85dd3bfdfc001ab268f",
+          "sha1": "66d16c8af00d434db0584fe8620f19a1aa6e5475",
+          "md5": "814a284481fddd5017f8b9885b981a13"
+        }
+      ]
+    }
+  ]
+}
