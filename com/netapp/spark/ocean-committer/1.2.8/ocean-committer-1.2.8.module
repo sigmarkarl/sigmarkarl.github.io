@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "ocean-committer-1.2.8.jar",
           "url": "ocean-committer-1.2.8.jar",
-          "size": 950545,
-          "sha512": "bd223b58e50a488fcc2d29b26b9ff8a7a6f9118d56331f83cd1f5430bdf72b82776aeb47bc0bc35d461500a5bab5e04b75cada027717beb0c71bab509e389261",
-          "sha256": "c74c4ae2c7b7a6f5edf59232bdc0d1b4e21c71c1f737d89dccb19095e1a30821",
-          "sha1": "2156dbeb53601d38489b4296d32c8fceb8ba99e1",
-          "md5": "fbeb40d820701306b61e5db5fb0fc746"
+          "size": 950656,
+          "sha512": "10c93852f9e6aa54b028802e894d53e3122427ef11c16831be87e254bc9773d6b9377d5a62d98107ce77bc97ea374603304260a9e510033d65be12dc4e3c9be0",
+          "sha256": "d1b3cb667644268ad063dbd6c9718dab61569d3bb1bebf0e02ea3fac2ec9268e",
+          "sha1": "ac375bff427ad9f003e381e12f826b56849d3c4c",
+          "md5": "893d3ee5a51698626314c0fb995e03a2"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -148,11 +148,11 @@
         {
           "name": "ocean-committer-1.2.8.jar",
           "url": "ocean-committer-1.2.8.jar",
-          "size": 950545,
-          "sha512": "bd223b58e50a488fcc2d29b26b9ff8a7a6f9118d56331f83cd1f5430bdf72b82776aeb47bc0bc35d461500a5bab5e04b75cada027717beb0c71bab509e389261",
-          "sha256": "c74c4ae2c7b7a6f5edf59232bdc0d1b4e21c71c1f737d89dccb19095e1a30821",
-          "sha1": "2156dbeb53601d38489b4296d32c8fceb8ba99e1",
-          "md5": "fbeb40d820701306b61e5db5fb0fc746"
+          "size": 950656,
+          "sha512": "10c93852f9e6aa54b028802e894d53e3122427ef11c16831be87e254bc9773d6b9377d5a62d98107ce77bc97ea374603304260a9e510033d65be12dc4e3c9be0",
+          "sha256": "d1b3cb667644268ad063dbd6c9718dab61569d3bb1bebf0e02ea3fac2ec9268e",
+          "sha1": "ac375bff427ad9f003e381e12f826b56849d3c4c",
+          "md5": "893d3ee5a51698626314c0fb995e03a2"
         }
       ]
     }
