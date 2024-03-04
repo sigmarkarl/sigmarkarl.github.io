@@ -105,42 +105,42 @@
           "group": "software.amazon.awssdk",
           "module": "s3",
           "version": {
-            "requires": "2.24.12"
+            "requires": "2.23.19"
           }
         },
         {
           "group": "software.amazon.awssdk",
           "module": "core",
           "version": {
-            "requires": "2.24.12"
+            "requires": "2.23.19"
           }
         },
         {
           "group": "software.amazon.awssdk",
           "module": "aws-core",
           "version": {
-            "requires": "2.24.12"
+            "requires": "2.23.19"
           }
         },
         {
           "group": "software.amazon.awssdk",
           "module": "s3-transfer-manager",
           "version": {
-            "requires": "2.24.12"
+            "requires": "2.23.19"
           }
         },
         {
           "group": "software.amazon.awssdk",
           "module": "apache-client",
           "version": {
-            "requires": "2.24.12"
+            "requires": "2.23.19"
           }
         },
         {
           "group": "software.amazon.awssdk",
           "module": "bundle",
           "version": {
-            "requires": "2.24.12"
+            "requires": "2.23.19"
           }
         }
       ],
