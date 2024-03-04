@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "ocean-committer",
+    "version": "1.2.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ocean-committer-1.2.8.jar",
+          "url": "ocean-committer-1.2.8.jar",
+          "size": 950545,
+          "sha512": "bd223b58e50a488fcc2d29b26b9ff8a7a6f9118d56331f83cd1f5430bdf72b82776aeb47bc0bc35d461500a5bab5e04b75cada027717beb0c71bab509e389261",
+          "sha256": "c74c4ae2c7b7a6f5edf59232bdc0d1b4e21c71c1f737d89dccb19095e1a30821",
+          "sha1": "2156dbeb53601d38489b4296d32c8fceb8ba99e1",
+          "md5": "fbeb40d820701306b61e5db5fb0fc746"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.spark",
+          "module": "spark-core_2.12",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-sql_2.12",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-hadoop-cloud_2.12",
+          "version": {
+            "requires": "3.5.1"
+          }
+        },
+        {
+          "group": "org.apache.hadoop",
+          "module": "hadoop-hdfs",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "org.apache.hadoop",
+          "module": "hadoop-common",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "org.apache.hadoop",
+          "module": "hadoop-mapreduce-client-core",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk",
+          "version": {
+            "requires": "1.12.262"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-java-sdk-bundle",
+          "version": {
+            "requires": "1.12.262"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "s3",
+          "version": {
+            "requires": "2.24.12"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "core",
+          "version": {
+            "requires": "2.24.12"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "aws-core",
+          "version": {
+            "requires": "2.24.12"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "s3-transfer-manager",
+          "version": {
+            "requires": "2.24.12"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "apache-client",
+          "version": {
+            "requires": "2.24.12"
+          }
+        },
+        {
+          "group": "software.amazon.awssdk",
+          "module": "bundle",
+          "version": {
+            "requires": "2.24.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ocean-committer-1.2.8.jar",
+          "url": "ocean-committer-1.2.8.jar",
+          "size": 950545,
+          "sha512": "bd223b58e50a488fcc2d29b26b9ff8a7a6f9118d56331f83cd1f5430bdf72b82776aeb47bc0bc35d461500a5bab5e04b75cada027717beb0c71bab509e389261",
+          "sha256": "c74c4ae2c7b7a6f5edf59232bdc0d1b4e21c71c1f737d89dccb19095e1a30821",
+          "sha1": "2156dbeb53601d38489b4296d32c8fceb8ba99e1",
+          "md5": "fbeb40d820701306b61e5db5fb0fc746"
+        }
+      ]
+    }
+  ]
+}
