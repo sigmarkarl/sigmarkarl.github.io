@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "jupyter-plugin",
+    "version": "1.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jupyter-plugin-1.3.0.jar",
+          "url": "jupyter-plugin-1.3.0.jar",
+          "size": 13493,
+          "sha512": "b45c3a02fea8a4a4f3bc9ee9c5554d2b8028577351e429a53b57281f3e0a46fc8a6bdc0ab44fedd878284e074bf7e551ab88c02150cb02fff131060406f6c912",
+          "sha256": "05263511a8eb76183d3a61e68ecbfb9072e6e42dea25fa0dd39c62b7cd537afc",
+          "sha1": "df1123243f5f66e47b04475efb8db55c64f8c4a5",
+          "md5": "d6d883efe7882c406b396bd48f971dfe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "common",
+          "version": {
+            "requires": "1.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jupyter-plugin-1.3.0.jar",
+          "url": "jupyter-plugin-1.3.0.jar",
+          "size": 13493,
+          "sha512": "b45c3a02fea8a4a4f3bc9ee9c5554d2b8028577351e429a53b57281f3e0a46fc8a6bdc0ab44fedd878284e074bf7e551ab88c02150cb02fff131060406f6c912",
+          "sha256": "05263511a8eb76183d3a61e68ecbfb9072e6e42dea25fa0dd39c62b7cd537afc",
+          "sha1": "df1123243f5f66e47b04475efb8db55c64f8c4a5",
+          "md5": "d6d883efe7882c406b396bd48f971dfe"
+        }
+      ]
+    }
+  ]
+}
