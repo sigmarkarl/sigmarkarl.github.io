@@ -27,11 +27,11 @@
         {
           "name": "ray-plugin-1.3.0.jar",
           "url": "ray-plugin-1.3.0.jar",
-          "size": 12533,
-          "sha512": "52cb82c82d4a445e0ffb30831639a189e9167fefb22189f17701067e57bffdb816dd39b29f6b34ee790e729f537b1904587b5b4050ed88f39d524ff7659cae53",
-          "sha256": "f9f5608450b2c1f704e68f6a6364efebaeb88d4c117ecb426c6d97f19e6ef735",
-          "sha1": "db6ec503f35f8d4ba03d1668f28894d98ceeb416",
-          "md5": "11c2b27f2865380f06ff8c8724e196f4"
+          "size": 12547,
+          "sha512": "4ff3dca565ed34c2bea97bda6976cd7b4ee7c3b8548b30ac03be7bea56c3a1e48d073db3f9e746a2c5b097a45c5624537b05d2f327a4a27ae0bd21dd6f2cb7e3",
+          "sha256": "4e2038802389018908884283431c04f952fd681c327ad177ec45b186390f0405",
+          "sha1": "2a4c1e9d44492276371c662646120ba95929360a",
+          "md5": "8d9f99f0753de7ec7e753bbe20a5ef88"
         }
       ]
     },
@@ -57,11 +57,11 @@
         {
           "name": "ray-plugin-1.3.0.jar",
           "url": "ray-plugin-1.3.0.jar",
-          "size": 12533,
-          "sha512": "52cb82c82d4a445e0ffb30831639a189e9167fefb22189f17701067e57bffdb816dd39b29f6b34ee790e729f537b1904587b5b4050ed88f39d524ff7659cae53",
-          "sha256": "f9f5608450b2c1f704e68f6a6364efebaeb88d4c117ecb426c6d97f19e6ef735",
-          "sha1": "db6ec503f35f8d4ba03d1668f28894d98ceeb416",
-          "md5": "11c2b27f2865380f06ff8c8724e196f4"
+          "size": 12547,
+          "sha512": "4ff3dca565ed34c2bea97bda6976cd7b4ee7c3b8548b30ac03be7bea56c3a1e48d073db3f9e746a2c5b097a45c5624537b05d2f327a4a27ae0bd21dd6f2cb7e3",
+          "sha256": "4e2038802389018908884283431c04f952fd681c327ad177ec45b186390f0405",
+          "sha1": "2a4c1e9d44492276371c662646120ba95929360a",
+          "md5": "8d9f99f0753de7ec7e753bbe20a5ef88"
         }
       ]
     }
