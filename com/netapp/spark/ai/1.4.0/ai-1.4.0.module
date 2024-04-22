@@ -27,11 +27,11 @@
         {
           "name": "ai-1.4.0.jar",
           "url": "ai-1.4.0.jar",
-          "size": 3797,
-          "sha512": "e90b54748a7386ce4364dd029e5eab0550b88afd86e53c36a282f775b7b29d8efd4971e275a3b58012496a389d696edc19cfbdc0f2d3921fc8a36f08088c064d",
-          "sha256": "39ad071464e48dc0e947f4c71389a8904d09209dd1710b1ce6842d81770d7e94",
-          "sha1": "482bb0e422baf3d32ba28ba319b8d524495109f2",
-          "md5": "5d56c3b8ac4c21edd9f1e36ef841fe15"
+          "size": 3955,
+          "sha512": "d5c860c384a840258ee1450590f14a3004a7d2f984b4d9169651a5928178bc4cefcc43364b5ebe3ae589e3e4506a95dac6137fd11e589d3ff9d7a943528f167c",
+          "sha256": "9b8086271dff04a751627f9d3573f633cafad51088e87a594b803948f2807192",
+          "sha1": "5ac0d8836e279be26cd397c5a646fef338b32fba",
+          "md5": "5bfb75cca6d29fd549c41a734d867d84"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "ai-1.4.0.jar",
           "url": "ai-1.4.0.jar",
-          "size": 3797,
-          "sha512": "e90b54748a7386ce4364dd029e5eab0550b88afd86e53c36a282f775b7b29d8efd4971e275a3b58012496a389d696edc19cfbdc0f2d3921fc8a36f08088c064d",
-          "sha256": "39ad071464e48dc0e947f4c71389a8904d09209dd1710b1ce6842d81770d7e94",
-          "sha1": "482bb0e422baf3d32ba28ba319b8d524495109f2",
-          "md5": "5d56c3b8ac4c21edd9f1e36ef841fe15"
+          "size": 3955,
+          "sha512": "d5c860c384a840258ee1450590f14a3004a7d2f984b4d9169651a5928178bc4cefcc43364b5ebe3ae589e3e4506a95dac6137fd11e589d3ff9d7a943528f167c",
+          "sha256": "9b8086271dff04a751627f9d3573f633cafad51088e87a594b803948f2807192",
+          "sha1": "5ac0d8836e279be26cd397c5a646fef338b32fba",
+          "md5": "5bfb75cca6d29fd549c41a734d867d84"
         }
       ]
     }
