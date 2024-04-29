@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "vscode-plugin",
+    "version": "1.4.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vscode-plugin-1.4.1.jar",
+          "url": "vscode-plugin-1.4.1.jar",
+          "size": 19619,
+          "sha512": "d5f71c6c12f1e5cf680fb777cafc389166cf5d1b9b9c6ee6d39001c0902ebcf02992ad471776427fecc6cb36133a296d685c0a67b6aa16f556607a5b3bf15fa6",
+          "sha256": "3166ce1616074d8552c67d776ffa8debfb55a7fcbfe5d800abdd1c77b91f078a",
+          "sha1": "e5bbd116a7da7b0eddb93c078be6283c7fd87d23",
+          "md5": "9f7b5b815264390250401a4d9239cd76"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "common",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "io.undertow",
+          "module": "undertow-core",
+          "version": {
+            "requires": "2.3.10.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vscode-plugin-1.4.1.jar",
+          "url": "vscode-plugin-1.4.1.jar",
+          "size": 19619,
+          "sha512": "d5f71c6c12f1e5cf680fb777cafc389166cf5d1b9b9c6ee6d39001c0902ebcf02992ad471776427fecc6cb36133a296d685c0a67b6aa16f556607a5b3bf15fa6",
+          "sha256": "3166ce1616074d8552c67d776ffa8debfb55a7fcbfe5d800abdd1c77b91f078a",
+          "sha1": "e5bbd116a7da7b0eddb93c078be6283c7fd87d23",
+          "md5": "9f7b5b815264390250401a4d9239cd76"
+        }
+      ]
+    }
+  ]
+}
