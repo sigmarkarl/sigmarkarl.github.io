@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "common",
+    "version": "1.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "common-1.4.3.jar",
+          "url": "common-1.4.3.jar",
+          "size": 10115,
+          "sha512": "9c51e0ea455f9a2f47618fee69d42af9d6d45261d8d63d446ad1109611b67baa4650282205fa425b00d1a71dcfb3df71af187b6ff6836030593afa82d0d25da3",
+          "sha256": "85c8acf2ea64ac2dcc916914fe60e9f138ac80dcf0c0b9ca9d33aff1f0783e78",
+          "sha1": "cd60cc9b020426defb9edf2ca05f0f8dc05c866a",
+          "md5": "b91f7697804a2dfbcc503398353e232f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-1.4.3.jar",
+          "url": "common-1.4.3.jar",
+          "size": 10115,
+          "sha512": "9c51e0ea455f9a2f47618fee69d42af9d6d45261d8d63d446ad1109611b67baa4650282205fa425b00d1a71dcfb3df71af187b6ff6836030593afa82d0d25da3",
+          "sha256": "85c8acf2ea64ac2dcc916914fe60e9f138ac80dcf0c0b9ca9d33aff1f0783e78",
+          "sha1": "cd60cc9b020426defb9edf2ca05f0f8dc05c866a",
+          "md5": "b91f7697804a2dfbcc503398353e232f"
+        }
+      ]
+    }
+  ]
+}

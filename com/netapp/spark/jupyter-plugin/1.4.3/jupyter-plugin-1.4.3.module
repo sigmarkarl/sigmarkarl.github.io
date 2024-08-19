@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "jupyter-plugin",
+    "version": "1.4.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jupyter-plugin-1.4.3.jar",
+          "url": "jupyter-plugin-1.4.3.jar",
+          "size": 15468,
+          "sha512": "6ab63668ee1817e4cce7dcad143756e0f36c3011d182628055a090df53c447d8662ba7b3bc72a615ec772bc51e4536d7be59badf607e0ab7f8f833dda9c7d9b2",
+          "sha256": "38ff3b5ad4e7167b6c5de47c7953d6a53c0ad1e78c4d89d20152191542fc286d",
+          "sha1": "9837d48ee270bbf06ce707490039dc2ddb7f29bb",
+          "md5": "d4c0e0c35bcfe8581c2734161a2d7d40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "common",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.27.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jupyter-plugin-1.4.3.jar",
+          "url": "jupyter-plugin-1.4.3.jar",
+          "size": 15468,
+          "sha512": "6ab63668ee1817e4cce7dcad143756e0f36c3011d182628055a090df53c447d8662ba7b3bc72a615ec772bc51e4536d7be59badf607e0ab7f8f833dda9c7d9b2",
+          "sha256": "38ff3b5ad4e7167b6c5de47c7953d6a53c0ad1e78c4d89d20152191542fc286d",
+          "sha1": "9837d48ee270bbf06ce707490039dc2ddb7f29bb",
+          "md5": "d4c0e0c35bcfe8581c2734161a2d7d40"
+        }
+      ]
+    }
+  ]
+}
