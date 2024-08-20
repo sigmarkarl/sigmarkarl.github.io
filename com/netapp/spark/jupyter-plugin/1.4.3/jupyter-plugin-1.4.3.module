@@ -27,11 +27,11 @@
         {
           "name": "jupyter-plugin-1.4.3.jar",
           "url": "jupyter-plugin-1.4.3.jar",
-          "size": 15488,
-          "sha512": "55f6df63744f0d6dd9590405146d84c54fcaaa432620b76bec0248724eb40c979b681c6a84474ac28725e2622acb32db53bb666048022a5f1105c047c5dd9772",
-          "sha256": "43520317a8e5e38ec45b75ebf781423882cbe4153c2c9b73aa9a6d03f12d2c21",
-          "sha1": "ff8ee672689c81a40268012e5b8ad602c7f5396a",
-          "md5": "7a21c8bba69402977e04ad0d2fb4844b"
+          "size": 15511,
+          "sha512": "d51b9e5fda8856adb275d6010d0b2cfb9b271314a4971d305c0bd8c7ec5bd1c23e30221fec583bbeb3d25a92a48d1402161c226252bb83ab9ccc6e86af153cbc",
+          "sha256": "a7ce54e06ca8e176dbeddddc457bec09684cf49ebe39b168d98e050e49c5388e",
+          "sha1": "9e4bcd1fb0e2cf69d535c84a5bc1112c06c30592",
+          "md5": "20de25d16d280690cc039edf419123c0"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "jupyter-plugin-1.4.3.jar",
           "url": "jupyter-plugin-1.4.3.jar",
-          "size": 15488,
-          "sha512": "55f6df63744f0d6dd9590405146d84c54fcaaa432620b76bec0248724eb40c979b681c6a84474ac28725e2622acb32db53bb666048022a5f1105c047c5dd9772",
-          "sha256": "43520317a8e5e38ec45b75ebf781423882cbe4153c2c9b73aa9a6d03f12d2c21",
-          "sha1": "ff8ee672689c81a40268012e5b8ad602c7f5396a",
-          "md5": "7a21c8bba69402977e04ad0d2fb4844b"
+          "size": 15511,
+          "sha512": "d51b9e5fda8856adb275d6010d0b2cfb9b271314a4971d305c0bd8c7ec5bd1c23e30221fec583bbeb3d25a92a48d1402161c226252bb83ab9ccc6e86af153cbc",
+          "sha256": "a7ce54e06ca8e176dbeddddc457bec09684cf49ebe39b168d98e050e49c5388e",
+          "sha1": "9e4bcd1fb0e2cf69d535c84a5bc1112c06c30592",
+          "md5": "20de25d16d280690cc039edf419123c0"
         }
       ]
     }
