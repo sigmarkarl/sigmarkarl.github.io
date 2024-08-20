@@ -21,7 +21,8 @@
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-compress</artifactId>
       <version>1.27.0</version>
-      <scope>runtime</scope>
+      <scope>compile</scope>
+      <optional>true</optional>
     </dependency>
   </dependencies>
 </project>
