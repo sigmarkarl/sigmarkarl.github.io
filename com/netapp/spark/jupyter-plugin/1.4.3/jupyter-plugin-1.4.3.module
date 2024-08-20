@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "jupyter-plugin-1.4.3.jar",
-          "url": "jupyter-plugin-1.4.3.jar",
+          "name": "jupyter-plugin-1.4.3-empty.jar",
+          "url": "jupyter-plugin-1.4.3-empty.jar",
           "size": 15698,
-          "sha512": "7e64bf2caebcfdd3250e2487cda6593359af3057dd3c7e0dbb8a09884202c167e9867419a1b2179cfc2f8caf6a4f15dff9c9dd787034fbbc48cc969255b0d992",
-          "sha256": "2045cad1fd47ddcd78c97ac8b82bf591c899c5c67ac550ec79030f7c66d125b9",
-          "sha1": "fe8177f7e29abc3f24f76cf772f2e5d61cabdaca",
-          "md5": "c0b9b7d0bba145a7992722d5b49e06be"
+          "sha512": "d48823c9008ddcc0b5c5f8ec05f0e100a0aea47777d384fbd790e182351a4378b951cc844638912ebb7aaeacdc21df1112a6dca439393b86c6b05a361d609dbd",
+          "sha256": "57a01edda91faec38999e7599177ce3bc4922e0dbddbcedd6f3ce4d4b50af75c",
+          "sha1": "4a31d8130e409b2ce572000eb1c8b6f3aee45d98",
+          "md5": "5ecf00e812497eb12e7bc8752e06ec51"
         }
       ]
     },
@@ -51,17 +51,24 @@
           "version": {
             "requires": "1.4.3"
           }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.27.0"
+          }
         }
       ],
       "files": [
         {
-          "name": "jupyter-plugin-1.4.3.jar",
-          "url": "jupyter-plugin-1.4.3.jar",
+          "name": "jupyter-plugin-1.4.3-empty.jar",
+          "url": "jupyter-plugin-1.4.3-empty.jar",
           "size": 15698,
-          "sha512": "7e64bf2caebcfdd3250e2487cda6593359af3057dd3c7e0dbb8a09884202c167e9867419a1b2179cfc2f8caf6a4f15dff9c9dd787034fbbc48cc969255b0d992",
-          "sha256": "2045cad1fd47ddcd78c97ac8b82bf591c899c5c67ac550ec79030f7c66d125b9",
-          "sha1": "fe8177f7e29abc3f24f76cf772f2e5d61cabdaca",
-          "md5": "c0b9b7d0bba145a7992722d5b49e06be"
+          "sha512": "d48823c9008ddcc0b5c5f8ec05f0e100a0aea47777d384fbd790e182351a4378b951cc844638912ebb7aaeacdc21df1112a6dca439393b86c6b05a361d609dbd",
+          "sha256": "57a01edda91faec38999e7599177ce3bc4922e0dbddbcedd6f3ce4d4b50af75c",
+          "sha1": "4a31d8130e409b2ce572000eb1c8b6f3aee45d98",
+          "md5": "5ecf00e812497eb12e7bc8752e06ec51"
         }
       ]
     },
@@ -73,24 +80,15 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
-      "dependencies": [
-        {
-          "group": "org.apache.commons",
-          "module": "commons-compress",
-          "version": {
-            "requires": "1.27.0"
-          }
-        }
-      ],
       "files": [
         {
-          "name": "jupyter-plugin-1.4.3-all.jar",
-          "url": "jupyter-plugin-1.4.3-all.jar",
-          "size": 2308642,
-          "sha512": "840fe390669c8e75756425d168fd0d873021608ca73504bed994eeab15054e39d9615087f6366752e6071da4e378dca3e59c9141df1454e81f5c061c9e80b001",
-          "sha256": "6465fc7c5bc5f1b1e5902ea4267d0392d873f7816e452326d122ceef46ae6221",
-          "sha1": "37a7c46e367d1cc4e3e1e4207ff62597f005625c",
-          "md5": "ff9c20f0241c5dda7f6841cc179b4911"
+          "name": "jupyter-plugin-1.4.3.jar",
+          "url": "jupyter-plugin-1.4.3.jar",
+          "size": 2691591,
+          "sha512": "047b91a4465c01f1ebb6476c466b5867a10fcbe21eeb614cfe3b0b9b02a29b8293142980e235b30f5f6099390a0e5e835966afde187f0dfe909d0cd19b583bc5",
+          "sha256": "1c6d950fe625b5c16185f7516e003e574e627102687c5d67ebee681c3df3322a",
+          "sha1": "8ba920d17c2b7097db82bbaf28a345d9bde8cecf",
+          "md5": "6e8bebe71f842445f9a3761c7cac6226"
         }
       ]
     }
