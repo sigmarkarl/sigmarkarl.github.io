@@ -27,11 +27,11 @@
         {
           "name": "spark-cluster-1.4.4.jar",
           "url": "spark-cluster-1.4.4.jar",
-          "size": 6517,
-          "sha512": "7f3ea4a1f2ed91e471c7542cc3db94f5889a2ed193165bacb05fca768557e372650e410a791b1710246891a36f15186a7d33502bf00826e4f5c643566d9ee879",
-          "sha256": "64585b3ee2f7a5928e422cb938e65a870ba7ce9f16f52ced7d233e17877b8a62",
-          "sha1": "5d5b428cd0be950851c6044537b8a87a3539c505",
-          "md5": "59d3a94d60c97dcc99df55f7a1d6a2af"
+          "size": 6810,
+          "sha512": "c4b74353efe75202753ebff33dc43a6ddde935bc9ad3f2ad6793d1f3182b9589f5fdf0ba1ab40b4793e751ca94fea5f03875d42a6ba294dabe3646aad8ab2cfb",
+          "sha256": "47ce9e85bdc83c4910f0a27e46b94d9427d129489db3655132d1b1629e432add",
+          "sha1": "a991bf452ebd0eb5e74c09be1d001b849020bfb3",
+          "md5": "4dcaea32c86783ca9412160361025f43"
         }
       ]
     },
@@ -71,11 +71,11 @@
         {
           "name": "spark-cluster-1.4.4.jar",
           "url": "spark-cluster-1.4.4.jar",
-          "size": 6517,
-          "sha512": "7f3ea4a1f2ed91e471c7542cc3db94f5889a2ed193165bacb05fca768557e372650e410a791b1710246891a36f15186a7d33502bf00826e4f5c643566d9ee879",
-          "sha256": "64585b3ee2f7a5928e422cb938e65a870ba7ce9f16f52ced7d233e17877b8a62",
-          "sha1": "5d5b428cd0be950851c6044537b8a87a3539c505",
-          "md5": "59d3a94d60c97dcc99df55f7a1d6a2af"
+          "size": 6810,
+          "sha512": "c4b74353efe75202753ebff33dc43a6ddde935bc9ad3f2ad6793d1f3182b9589f5fdf0ba1ab40b4793e751ca94fea5f03875d42a6ba294dabe3646aad8ab2cfb",
+          "sha256": "47ce9e85bdc83c4910f0a27e46b94d9427d129489db3655132d1b1629e432add",
+          "sha1": "a991bf452ebd0eb5e74c09be1d001b849020bfb3",
+          "md5": "4dcaea32c86783ca9412160361025f43"
         }
       ]
     }
