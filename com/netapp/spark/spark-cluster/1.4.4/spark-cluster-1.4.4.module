@@ -27,11 +27,11 @@
         {
           "name": "spark-cluster-1.4.4.jar",
           "url": "spark-cluster-1.4.4.jar",
-          "size": 2388,
-          "sha512": "e3ad3107c0966833d4e2923960d3e17a4ad8b6d0d3b9be6306012c71814104ff10b0f4bbfb52a04e6e9369fe479c996177e9cb97dbe75d0d2f4e8d3adde676da",
-          "sha256": "1b62d569da324fcef214ed79484d8794297d43dcd8ec35196be7433b4e88b29b",
-          "sha1": "565977968ab2d05e3af87b9829356803b71bacc4",
-          "md5": "5a3f5abc9f071460b7b1e392e28b4506"
+          "size": 6247,
+          "sha512": "558a6f3a0a0625d2cd0401f2c08a0cce950d7ea197153c467b9a79285dde27d16d32417fbba57e9d82835ec6a72c1a49c2d5dc61beec40502dd42ace320db3e7",
+          "sha256": "51ba27a8fefc3a71a1bee658d1d9a783e604e5ca669f26ff5458257ccc4c7fb4",
+          "sha1": "37ae001cf9996a987b4ecd4a9ea7a2e7e1d46b2e",
+          "md5": "b4d1710b7b6a515903a0d4833cacec7e"
         }
       ]
     },
@@ -51,17 +51,31 @@
           "version": {
             "requires": "1.4.4"
           }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-core_2.13",
+          "version": {
+            "requires": "3.5.3"
+          }
+        },
+        {
+          "group": "org.apache.spark",
+          "module": "spark-sql_2.13",
+          "version": {
+            "requires": "3.5.3"
+          }
         }
       ],
       "files": [
         {
           "name": "spark-cluster-1.4.4.jar",
           "url": "spark-cluster-1.4.4.jar",
-          "size": 2388,
-          "sha512": "e3ad3107c0966833d4e2923960d3e17a4ad8b6d0d3b9be6306012c71814104ff10b0f4bbfb52a04e6e9369fe479c996177e9cb97dbe75d0d2f4e8d3adde676da",
-          "sha256": "1b62d569da324fcef214ed79484d8794297d43dcd8ec35196be7433b4e88b29b",
-          "sha1": "565977968ab2d05e3af87b9829356803b71bacc4",
-          "md5": "5a3f5abc9f071460b7b1e392e28b4506"
+          "size": 6247,
+          "sha512": "558a6f3a0a0625d2cd0401f2c08a0cce950d7ea197153c467b9a79285dde27d16d32417fbba57e9d82835ec6a72c1a49c2d5dc61beec40502dd42ace320db3e7",
+          "sha256": "51ba27a8fefc3a71a1bee658d1d9a783e604e5ca669f26ff5458257ccc4c7fb4",
+          "sha1": "37ae001cf9996a987b4ecd4a9ea7a2e7e1d46b2e",
+          "md5": "b4d1710b7b6a515903a0d4833cacec7e"
         }
       ]
     }
