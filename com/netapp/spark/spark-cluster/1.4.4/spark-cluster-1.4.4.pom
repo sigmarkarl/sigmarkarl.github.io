@@ -9,12 +9,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.netapp.spark</groupId>
   <artifactId>spark-cluster</artifactId>
-  <version>1.0.0</version>
+  <version>1.4.4</version>
   <dependencies>
     <dependency>
       <groupId>com.netapp.spark</groupId>
       <artifactId>common</artifactId>
-      <version>1.0.0</version>
+      <version>1.4.4</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

@@ -3,7 +3,7 @@
   "component": {
     "group": "com.netapp.spark",
     "module": "spark-cluster",
-    "version": "1.0.0",
+    "version": "1.4.4",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -19,19 +19,19 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 23,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
       "files": [
         {
-          "name": "spark-cluster-1.0.0.jar",
-          "url": "spark-cluster-1.0.0.jar",
+          "name": "spark-cluster-1.4.4.jar",
+          "url": "spark-cluster-1.4.4.jar",
           "size": 2405,
-          "sha512": "9aa182adc9fbfce5dfba9f58c7f9199fa8e544bb8b392cfae296eaf6b6b4e235bc52b0a84f28306a58ad81747499f1be14af535d52dfea3b3a47bc04bb766ff5",
-          "sha256": "6695ef308097b656104e5e4b329af95af86b3ad72b0880e38039ee5870522d78",
-          "sha1": "8d4d97a22cebbad295570e7916c127649049ef9f",
-          "md5": "4558189f2d00367847b25ff41bd13929"
+          "sha512": "f7464f909735e0915cb2a7c802807acd4be764c0b7fb0d18b39f04154fbd68eaae8a6279fa55af62e4314c0b6793106673c7bee093acb13a2e46d56bb4e6932e",
+          "sha256": "97dfac1018e4b4752cebcb458b0a4c0967df4dc01bfacb93c93c12b84b1feb65",
+          "sha1": "313254427c2dd1659f491db51f7b780f9680902e",
+          "md5": "7fbb4080403e9679da2e4507cc3e4183"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 23,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -49,19 +49,19 @@
           "group": "com.netapp.spark",
           "module": "common",
           "version": {
-            "requires": "1.0.0"
+            "requires": "1.4.4"
           }
         }
       ],
       "files": [
         {
-          "name": "spark-cluster-1.0.0.jar",
-          "url": "spark-cluster-1.0.0.jar",
+          "name": "spark-cluster-1.4.4.jar",
+          "url": "spark-cluster-1.4.4.jar",
           "size": 2405,
-          "sha512": "9aa182adc9fbfce5dfba9f58c7f9199fa8e544bb8b392cfae296eaf6b6b4e235bc52b0a84f28306a58ad81747499f1be14af535d52dfea3b3a47bc04bb766ff5",
-          "sha256": "6695ef308097b656104e5e4b329af95af86b3ad72b0880e38039ee5870522d78",
-          "sha1": "8d4d97a22cebbad295570e7916c127649049ef9f",
-          "md5": "4558189f2d00367847b25ff41bd13929"
+          "sha512": "f7464f909735e0915cb2a7c802807acd4be764c0b7fb0d18b39f04154fbd68eaae8a6279fa55af62e4314c0b6793106673c7bee093acb13a2e46d56bb4e6932e",
+          "sha256": "97dfac1018e4b4752cebcb458b0a4c0967df4dc01bfacb93c93c12b84b1feb65",
+          "sha1": "313254427c2dd1659f491db51f7b780f9680902e",
+          "md5": "7fbb4080403e9679da2e4507cc3e4183"
         }
       ]
     }
