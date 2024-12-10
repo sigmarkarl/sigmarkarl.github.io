@@ -60,13 +60,6 @@
           }
         },
         {
-          "group": "org.apache.commons",
-          "module": "commons-compress",
-          "version": {
-            "requires": "1.27.1"
-          }
-        },
-        {
           "group": "com.fasterxml.jackson.core",
           "module": "jackson-databind",
           "version": {
