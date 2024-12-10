@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "common-1.4.5.jar",
           "url": "common-1.4.5.jar",
-          "size": 16454,
-          "sha512": "0072ae5117d84b206242a2e3763ee091088b4d245925e267036cf438b0c1872c1a98c382deb5276a256c29a91134ee079b5e83b4c8288a49a83f5dd48bc5e0fd",
-          "sha256": "63af238a40f62278a62d3ac62007c916365c2fad2638cbf70b8f0b8cef8411cc",
-          "sha1": "7f812de0c52b7bb19253937845648c72c8b83359",
-          "md5": "a641f728520f9bcad7af9a90a7a2d20b"
+          "size": 16455,
+          "sha512": "e28d7fa94fc1b7b882d4a9a74265536e466a77aa44c885573f0620d20208eac28747c90ead23402c5aae902762f4d780494668227d77d91ab04c0662b30f89c9",
+          "sha256": "7fd371e5ef9b80e907872a687b832619e6781d2f9a3f10ee7b00407ed4968185",
+          "sha1": "975b431d58916693c26acee70c0f264c4013e2a7",
+          "md5": "67e6d59f5e3ab16f4d40df84a024baac"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -85,11 +85,11 @@
         {
           "name": "common-1.4.5.jar",
           "url": "common-1.4.5.jar",
-          "size": 16454,
-          "sha512": "0072ae5117d84b206242a2e3763ee091088b4d245925e267036cf438b0c1872c1a98c382deb5276a256c29a91134ee079b5e83b4c8288a49a83f5dd48bc5e0fd",
-          "sha256": "63af238a40f62278a62d3ac62007c916365c2fad2638cbf70b8f0b8cef8411cc",
-          "sha1": "7f812de0c52b7bb19253937845648c72c8b83359",
-          "md5": "a641f728520f9bcad7af9a90a7a2d20b"
+          "size": 16455,
+          "sha512": "e28d7fa94fc1b7b882d4a9a74265536e466a77aa44c885573f0620d20208eac28747c90ead23402c5aae902762f4d780494668227d77d91ab04c0662b30f89c9",
+          "sha256": "7fd371e5ef9b80e907872a687b832619e6781d2f9a3f10ee7b00407ed4968185",
+          "sha1": "975b431d58916693c26acee70c0f264c4013e2a7",
+          "md5": "67e6d59f5e3ab16f4d40df84a024baac"
         }
       ]
     }

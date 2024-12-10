@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "jupyter-plugin-1.4.5.jar",
           "url": "jupyter-plugin-1.4.5.jar",
-          "size": 11085,
-          "sha512": "816ac91b4a1d9f655df880c73f71a6db332e5c44d1abf0f39a9b7a6ec0de4248ff4141630845e1d37bc3b7ccd74ecab49a53d897d9f86d1a0393c479a2421480",
-          "sha256": "cd38c336566d8eecdea4228e371bb5c8d9a6cad979998866a4bf87a5a8473a8d",
-          "sha1": "80dd21fd215f910e08ac08cdbd6a919fcc3e98d6",
-          "md5": "a4d8769efaa8a4c9fbadf2fa4ddf0907"
+          "size": 11091,
+          "sha512": "b20c20617153747a17539e2b27a50d330fa0e466464a365b5e9db7ff5279d5f55eeeab5e43676b710ab66412d940fbb1e2a84ae8657cbf25ff5566799bc0816f",
+          "sha256": "047771c0c1386ee968502bd48c95f04ade46f27f0af3dcd95be824518637ab29",
+          "sha1": "e4a768e1d840f6ef5fa559c8b95a94af7b6068c8",
+          "md5": "2d9a5700f1076776f658b5f2573ddf42"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -64,11 +64,11 @@
         {
           "name": "jupyter-plugin-1.4.5.jar",
           "url": "jupyter-plugin-1.4.5.jar",
-          "size": 11085,
-          "sha512": "816ac91b4a1d9f655df880c73f71a6db332e5c44d1abf0f39a9b7a6ec0de4248ff4141630845e1d37bc3b7ccd74ecab49a53d897d9f86d1a0393c479a2421480",
-          "sha256": "cd38c336566d8eecdea4228e371bb5c8d9a6cad979998866a4bf87a5a8473a8d",
-          "sha1": "80dd21fd215f910e08ac08cdbd6a919fcc3e98d6",
-          "md5": "a4d8769efaa8a4c9fbadf2fa4ddf0907"
+          "size": 11091,
+          "sha512": "b20c20617153747a17539e2b27a50d330fa0e466464a365b5e9db7ff5279d5f55eeeab5e43676b710ab66412d940fbb1e2a84ae8657cbf25ff5566799bc0816f",
+          "sha256": "047771c0c1386ee968502bd48c95f04ade46f27f0af3dcd95be824518637ab29",
+          "sha1": "e4a768e1d840f6ef5fa559c8b95a94af7b6068c8",
+          "md5": "2d9a5700f1076776f658b5f2573ddf42"
         }
       ]
     }
