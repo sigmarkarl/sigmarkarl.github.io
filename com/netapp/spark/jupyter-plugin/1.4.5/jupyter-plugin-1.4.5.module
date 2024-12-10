@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "jupyter-plugin",
+    "version": "1.4.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jupyter-plugin-1.4.5.jar",
+          "url": "jupyter-plugin-1.4.5.jar",
+          "size": 11085,
+          "sha512": "816ac91b4a1d9f655df880c73f71a6db332e5c44d1abf0f39a9b7a6ec0de4248ff4141630845e1d37bc3b7ccd74ecab49a53d897d9f86d1a0393c479a2421480",
+          "sha256": "cd38c336566d8eecdea4228e371bb5c8d9a6cad979998866a4bf87a5a8473a8d",
+          "sha1": "80dd21fd215f910e08ac08cdbd6a919fcc3e98d6",
+          "md5": "a4d8769efaa8a4c9fbadf2fa4ddf0907"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "common",
+          "version": {
+            "requires": "1.4.5"
+          }
+        },
+        {
+          "group": "com.netapp.spark",
+          "module": "tools",
+          "version": {
+            "requires": "1.4.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jupyter-plugin-1.4.5.jar",
+          "url": "jupyter-plugin-1.4.5.jar",
+          "size": 11085,
+          "sha512": "816ac91b4a1d9f655df880c73f71a6db332e5c44d1abf0f39a9b7a6ec0de4248ff4141630845e1d37bc3b7ccd74ecab49a53d897d9f86d1a0393c479a2421480",
+          "sha256": "cd38c336566d8eecdea4228e371bb5c8d9a6cad979998866a4bf87a5a8473a8d",
+          "sha1": "80dd21fd215f910e08ac08cdbd6a919fcc3e98d6",
+          "md5": "a4d8769efaa8a4c9fbadf2fa4ddf0907"
+        }
+      ]
+    }
+  ]
+}
