@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "vscode-plugin",
+    "version": "1.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vscode-plugin-1.4.4.jar",
+          "url": "vscode-plugin-1.4.4.jar",
+          "size": 18832,
+          "sha512": "a5c5ba4a116c01c1f6996adcab1e2e810ec4ad78c7647e4b16a54b3f7c562df173cb8d420b4d5859086ee9830e2b7c1e534dc80fa7e83246abcc616231955f65",
+          "sha256": "7b88cef1b5509009409bf4f784ebdc08584739126d7b55d0ca84d4a92fe90f8a",
+          "sha1": "9ec728aeec8bf0c459125e72325d0585202dcd95",
+          "md5": "ab7f8775b3922d1e2d8b963093ed6402"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "common",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "com.netapp.spark",
+          "module": "tools",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.undertow",
+          "module": "undertow-core",
+          "version": {
+            "requires": "2.3.18.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vscode-plugin-1.4.4.jar",
+          "url": "vscode-plugin-1.4.4.jar",
+          "size": 18832,
+          "sha512": "a5c5ba4a116c01c1f6996adcab1e2e810ec4ad78c7647e4b16a54b3f7c562df173cb8d420b4d5859086ee9830e2b7c1e534dc80fa7e83246abcc616231955f65",
+          "sha256": "7b88cef1b5509009409bf4f784ebdc08584739126d7b55d0ca84d4a92fe90f8a",
+          "sha1": "9ec728aeec8bf0c459125e72325d0585202dcd95",
+          "md5": "ab7f8775b3922d1e2d8b963093ed6402"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "jupyter-plugin",
+    "version": "1.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jupyter-plugin-1.4.4.jar",
+          "url": "jupyter-plugin-1.4.4.jar",
+          "size": 14608,
+          "sha512": "c2ca9e1a76c8f9b7802107ea6b0d1768ad537e7466ca45f6ffc2abb453cdd8a44cde00afa5389a612f87d52f80663170587535d10b90d89b882966ac27240845",
+          "sha256": "fa84e148197941dc21f8c52855771c1547933756bdf020a7139aa40dcf7782d2",
+          "sha1": "460d9abb769fc1e4fc462f97440e3c417064773b",
+          "md5": "d52e895944244f58cd3203bb204b854f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "common",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "com.netapp.spark",
+          "module": "tools",
+          "version": {
+            "requires": "1.4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jupyter-plugin-1.4.4.jar",
+          "url": "jupyter-plugin-1.4.4.jar",
+          "size": 14608,
+          "sha512": "c2ca9e1a76c8f9b7802107ea6b0d1768ad537e7466ca45f6ffc2abb453cdd8a44cde00afa5389a612f87d52f80663170587535d10b90d89b882966ac27240845",
+          "sha256": "fa84e148197941dc21f8c52855771c1547933756bdf020a7139aa40dcf7782d2",
+          "sha1": "460d9abb769fc1e4fc462f97440e3c417064773b",
+          "md5": "d52e895944244f58cd3203bb204b854f"
+        }
+      ]
+    }
+  ]
+}
