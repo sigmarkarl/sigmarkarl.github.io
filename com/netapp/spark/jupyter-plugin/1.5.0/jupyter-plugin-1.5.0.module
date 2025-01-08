@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "jupyter-plugin-1.5.0.jar",
           "url": "jupyter-plugin-1.5.0.jar",
-          "size": 10580,
-          "sha512": "32c1c8fc89ae657ff0cbd907d9e0caa39e38deabab3025252393f79a02de33d5967f5db9067300534a6801277fbd81403a8349875efd570d336a61cb066b2b84",
-          "sha256": "02c394cefa4273196a897416f19fa034308ffd1ad7b23e0973dd25281fd69f10",
-          "sha1": "5abca75885b66fee400fd75c439d5ef652119042",
-          "md5": "bbb90ff0f7c9d813c5b035e0721cefcc"
+          "size": 10586,
+          "sha512": "25f17cc325dafa27b1fcdbdcf8e56d5c30cfc211fe7008b6586ba236d8450cc954dd77dd633bcb2b2c99952e099c1344df2d9aea6cd76debfca5ea85c2667c8e",
+          "sha256": "497351ee7bec4cde3f1bfda397755f32c0d88fefa69754f04c1221568255a2b2",
+          "sha1": "b0f492dde805adb8eb7019599de5ae8f83924940",
+          "md5": "2a6db098b6b1d902ccf535a37cbad637"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -64,11 +64,11 @@
         {
           "name": "jupyter-plugin-1.5.0.jar",
           "url": "jupyter-plugin-1.5.0.jar",
-          "size": 10580,
-          "sha512": "32c1c8fc89ae657ff0cbd907d9e0caa39e38deabab3025252393f79a02de33d5967f5db9067300534a6801277fbd81403a8349875efd570d336a61cb066b2b84",
-          "sha256": "02c394cefa4273196a897416f19fa034308ffd1ad7b23e0973dd25281fd69f10",
-          "sha1": "5abca75885b66fee400fd75c439d5ef652119042",
-          "md5": "bbb90ff0f7c9d813c5b035e0721cefcc"
+          "size": 10586,
+          "sha512": "25f17cc325dafa27b1fcdbdcf8e56d5c30cfc211fe7008b6586ba236d8450cc954dd77dd633bcb2b2c99952e099c1344df2d9aea6cd76debfca5ea85c2667c8e",
+          "sha256": "497351ee7bec4cde3f1bfda397755f32c0d88fefa69754f04c1221568255a2b2",
+          "sha1": "b0f492dde805adb8eb7019599de5ae8f83924940",
+          "md5": "2a6db098b6b1d902ccf535a37cbad637"
         }
       ]
     }

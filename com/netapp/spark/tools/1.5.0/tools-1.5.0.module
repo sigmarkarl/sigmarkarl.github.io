@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "tools-1.5.0-empty.jar",
           "url": "tools-1.5.0-empty.jar",
-          "size": 2551,
-          "sha512": "e89c0e7e29fa18c847515b8539f988c877954a6a0b7a658e30edd40bfb18c3f9d777d3565fbca255591eb4cb39a4667d3c2bbb7fea8deac32aa89d89fa37950c",
-          "sha256": "89e5e6672bc4ce41243d109d1e72a1980e5840221531fc6c376451b38e2c6f97",
-          "sha1": "eabb80e49d6d38746446c1be9982fd3939584b32",
-          "md5": "0fec5c8776f4a0daa876ac64031928a4"
+          "size": 2549,
+          "sha512": "99831bc01048d0c93c193164c8481d8e60e4b75a4487556c266fd449623d3cecb25517471b1abbf314daca0648d99b3b21249309bb891fbd277c4108dac3852d",
+          "sha256": "7360a9fa9452a18458d40396b095ddc4c663f3a637ab55f27ca19ecf2a68107f",
+          "sha1": "2c1fbdf4e3e190e25028fd1e6f53dbadb5b4d0b0",
+          "md5": "1f81e3f200fa8c998e425c1c0b79f4fa"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 21,
+        "org.gradle.jvm.version": 11,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -57,11 +57,11 @@
         {
           "name": "tools-1.5.0-empty.jar",
           "url": "tools-1.5.0-empty.jar",
-          "size": 2551,
-          "sha512": "e89c0e7e29fa18c847515b8539f988c877954a6a0b7a658e30edd40bfb18c3f9d777d3565fbca255591eb4cb39a4667d3c2bbb7fea8deac32aa89d89fa37950c",
-          "sha256": "89e5e6672bc4ce41243d109d1e72a1980e5840221531fc6c376451b38e2c6f97",
-          "sha1": "eabb80e49d6d38746446c1be9982fd3939584b32",
-          "md5": "0fec5c8776f4a0daa876ac64031928a4"
+          "size": 2549,
+          "sha512": "99831bc01048d0c93c193164c8481d8e60e4b75a4487556c266fd449623d3cecb25517471b1abbf314daca0648d99b3b21249309bb891fbd277c4108dac3852d",
+          "sha256": "7360a9fa9452a18458d40396b095ddc4c663f3a637ab55f27ca19ecf2a68107f",
+          "sha1": "2c1fbdf4e3e190e25028fd1e6f53dbadb5b4d0b0",
+          "md5": "1f81e3f200fa8c998e425c1c0b79f4fa"
         }
       ]
     },
@@ -77,11 +77,11 @@
         {
           "name": "tools-1.5.0.jar",
           "url": "tools-1.5.0.jar",
-          "size": 2672952,
-          "sha512": "0ebb6356a6de898d5f224291cabd259af5a5b85b1aebf14261f9813137f330cb28915d98846254d444181b252ab3a87b18f905c85015a1cd35946720c3a28c9f",
-          "sha256": "7fe81493a936a25f8c2781e3dcb9f49b6875898c7d229b6a058e7400f5021cb9",
-          "sha1": "97481959b586d5aa22f910744ec25f1b3b21655e",
-          "md5": "35a9dd3725e1ee18e1757410d9b9814b"
+          "size": 2672954,
+          "sha512": "cdfd77cbbe4e697d4e59d2224ce1895f245804738e4391487c8f3fc0b2036d8f4cf0b070240a23def6e924b6c9885d2808478871224ef018a712b56f8dd4b617",
+          "sha256": "a58c23eb453506bb29216aeca57f58180642cb4bfdcb81dfebc197e230968157",
+          "sha1": "d97469a14b58685e829d2029cabd190b5dae44c6",
+          "md5": "a32793b1515cd4b323fcf7203877a130"
         }
       ]
     }
