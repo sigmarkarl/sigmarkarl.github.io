@@ -27,11 +27,11 @@
         {
           "name": "jupyter-plugin-1.5.0.jar",
           "url": "jupyter-plugin-1.5.0.jar",
-          "size": 10586,
-          "sha512": "25f17cc325dafa27b1fcdbdcf8e56d5c30cfc211fe7008b6586ba236d8450cc954dd77dd633bcb2b2c99952e099c1344df2d9aea6cd76debfca5ea85c2667c8e",
-          "sha256": "497351ee7bec4cde3f1bfda397755f32c0d88fefa69754f04c1221568255a2b2",
-          "sha1": "b0f492dde805adb8eb7019599de5ae8f83924940",
-          "md5": "2a6db098b6b1d902ccf535a37cbad637"
+          "size": 15052,
+          "sha512": "0096c1ff45f1a3a109704c8424889389e5e0ddae2dbd4b9d232c4e83bfe8d7859b89dce8483b0f3a0eff45c39116b11eb55e0c5b05964d794dbe696733e29569",
+          "sha256": "3d3e068e4842d083a3a585f1a650c9f6fc83fe91ff384d33dfc65e5200a2d2c0",
+          "sha1": "c1e28026798ae8357825b30f1be9e3523d28bdec",
+          "md5": "c744b5c265ac0c675aec4e7d71594768"
         }
       ]
     },
@@ -58,17 +58,24 @@
           "version": {
             "requires": "1.5.0"
           }
+        },
+        {
+          "group": "io.fabric8",
+          "module": "kubernetes-client",
+          "version": {
+            "requires": "7.0.1"
+          }
         }
       ],
       "files": [
         {
           "name": "jupyter-plugin-1.5.0.jar",
           "url": "jupyter-plugin-1.5.0.jar",
-          "size": 10586,
-          "sha512": "25f17cc325dafa27b1fcdbdcf8e56d5c30cfc211fe7008b6586ba236d8450cc954dd77dd633bcb2b2c99952e099c1344df2d9aea6cd76debfca5ea85c2667c8e",
-          "sha256": "497351ee7bec4cde3f1bfda397755f32c0d88fefa69754f04c1221568255a2b2",
-          "sha1": "b0f492dde805adb8eb7019599de5ae8f83924940",
-          "md5": "2a6db098b6b1d902ccf535a37cbad637"
+          "size": 15052,
+          "sha512": "0096c1ff45f1a3a109704c8424889389e5e0ddae2dbd4b9d232c4e83bfe8d7859b89dce8483b0f3a0eff45c39116b11eb55e0c5b05964d794dbe696733e29569",
+          "sha256": "3d3e068e4842d083a3a585f1a650c9f6fc83fe91ff384d33dfc65e5200a2d2c0",
+          "sha1": "c1e28026798ae8357825b30f1be9e3523d28bdec",
+          "md5": "c744b5c265ac0c675aec4e7d71594768"
         }
       ]
     }
