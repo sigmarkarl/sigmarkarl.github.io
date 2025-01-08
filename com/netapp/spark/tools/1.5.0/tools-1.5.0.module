@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "tools",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "tools-1.5.0-empty.jar",
+          "url": "tools-1.5.0-empty.jar",
+          "size": 2551,
+          "sha512": "e89c0e7e29fa18c847515b8539f988c877954a6a0b7a658e30edd40bfb18c3f9d777d3565fbca255591eb4cb39a4667d3c2bbb7fea8deac32aa89d89fa37950c",
+          "sha256": "89e5e6672bc4ce41243d109d1e72a1980e5840221531fc6c376451b38e2c6f97",
+          "sha1": "eabb80e49d6d38746446c1be9982fd3939584b32",
+          "md5": "0fec5c8776f4a0daa876ac64031928a4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.27.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tools-1.5.0-empty.jar",
+          "url": "tools-1.5.0-empty.jar",
+          "size": 2551,
+          "sha512": "e89c0e7e29fa18c847515b8539f988c877954a6a0b7a658e30edd40bfb18c3f9d777d3565fbca255591eb4cb39a4667d3c2bbb7fea8deac32aa89d89fa37950c",
+          "sha256": "89e5e6672bc4ce41243d109d1e72a1980e5840221531fc6c376451b38e2c6f97",
+          "sha1": "eabb80e49d6d38746446c1be9982fd3939584b32",
+          "md5": "0fec5c8776f4a0daa876ac64031928a4"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tools-1.5.0.jar",
+          "url": "tools-1.5.0.jar",
+          "size": 2672952,
+          "sha512": "0ebb6356a6de898d5f224291cabd259af5a5b85b1aebf14261f9813137f330cb28915d98846254d444181b252ab3a87b18f905c85015a1cd35946720c3a28c9f",
+          "sha256": "7fe81493a936a25f8c2781e3dcb9f49b6875898c7d229b6a058e7400f5021cb9",
+          "sha1": "97481959b586d5aa22f910744ec25f1b3b21655e",
+          "md5": "35a9dd3725e1ee18e1757410d9b9814b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "common",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "common-1.5.0.jar",
+          "url": "common-1.5.0.jar",
+          "size": 17062,
+          "sha512": "469d4dbab26d35b24fb2a3d4cc5a3ca7214391dc1a28eae25fbb0eed3d26376fcbb3eaae36b79b4609655dbb9cac65b94f619741118b1627de5eec383fab79eb",
+          "sha256": "10a9382cd067c64ad94470399d3e25207677b11e27ad02c66dad382c03f59eeb",
+          "sha1": "0b9abeb3c787de7844a04ebee6c53e06624b5aec",
+          "md5": "8eb90d791b42a4076d81439d246a2f9a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "tools",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "7.0.0.202409031743-r"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.18.2"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-1.5.0.jar",
+          "url": "common-1.5.0.jar",
+          "size": 17062,
+          "sha512": "469d4dbab26d35b24fb2a3d4cc5a3ca7214391dc1a28eae25fbb0eed3d26376fcbb3eaae36b79b4609655dbb9cac65b94f619741118b1627de5eec383fab79eb",
+          "sha256": "10a9382cd067c64ad94470399d3e25207677b11e27ad02c66dad382c03f59eeb",
+          "sha1": "0b9abeb3c787de7844a04ebee6c53e06624b5aec",
+          "md5": "8eb90d791b42a4076d81439d246a2f9a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.netapp.spark",
+    "module": "jupyter-plugin",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "jupyter-plugin-1.5.0.jar",
+          "url": "jupyter-plugin-1.5.0.jar",
+          "size": 10580,
+          "sha512": "32c1c8fc89ae657ff0cbd907d9e0caa39e38deabab3025252393f79a02de33d5967f5db9067300534a6801277fbd81403a8349875efd570d336a61cb066b2b84",
+          "sha256": "02c394cefa4273196a897416f19fa034308ffd1ad7b23e0973dd25281fd69f10",
+          "sha1": "5abca75885b66fee400fd75c439d5ef652119042",
+          "md5": "bbb90ff0f7c9d813c5b035e0721cefcc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.netapp.spark",
+          "module": "common",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "com.netapp.spark",
+          "module": "tools",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jupyter-plugin-1.5.0.jar",
+          "url": "jupyter-plugin-1.5.0.jar",
+          "size": 10580,
+          "sha512": "32c1c8fc89ae657ff0cbd907d9e0caa39e38deabab3025252393f79a02de33d5967f5db9067300534a6801277fbd81403a8349875efd570d336a61cb066b2b84",
+          "sha256": "02c394cefa4273196a897416f19fa034308ffd1ad7b23e0973dd25281fd69f10",
+          "sha1": "5abca75885b66fee400fd75c439d5ef652119042",
+          "md5": "bbb90ff0f7c9d813c5b035e0721cefcc"
+        }
+      ]
+    }
+  ]
+}
