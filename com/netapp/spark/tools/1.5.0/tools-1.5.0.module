@@ -78,10 +78,10 @@
           "name": "tools-1.5.0.jar",
           "url": "tools-1.5.0.jar",
           "size": 2672954,
-          "sha512": "cdfd77cbbe4e697d4e59d2224ce1895f245804738e4391487c8f3fc0b2036d8f4cf0b070240a23def6e924b6c9885d2808478871224ef018a712b56f8dd4b617",
-          "sha256": "a58c23eb453506bb29216aeca57f58180642cb4bfdcb81dfebc197e230968157",
-          "sha1": "d97469a14b58685e829d2029cabd190b5dae44c6",
-          "md5": "a32793b1515cd4b323fcf7203877a130"
+          "sha512": "5ed84d18abeea9867fc6c0cde764d3bfb4dfdc0680a23fdae8a4ac5905841a15c8caa9a4ada1d086f6bfa7f70f9c4c9b707d29e0729c5010c33717f982ee95c7",
+          "sha256": "de8cd30495843ba60baff512b27425ba69c9eb23eab46a410a7a04fe9d6e1041",
+          "sha1": "7f759d1cc439117951763d20c3da09bede132614",
+          "md5": "68d87a9713cc5409cce4777f0b44962b"
         }
       ]
     }
