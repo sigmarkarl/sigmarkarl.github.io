@@ -6,6 +6,11 @@
     <title>CV Sigmar Stefánsson</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        @media print {
+            footer {
+                page-break-after: always;
+            }
+        }
         body {
             font-family: 'Roboto', sans-serif;
             font-size: 14px;
@@ -30,7 +35,6 @@
             width: 70%;
             padding: 20px;
             box-sizing: border-box;
-            margin-top: 0px;
         }
         .photo {
             width: 120px;
@@ -109,7 +113,7 @@
                 <a href="https://www.linkedin.com/in/sigmarkarl/" style="color: white;">linkedin.com/in/sigmarkarl</a>
             </div>
             <h2>Skills</h2>
-            <p>Java, Scala, C/C++, Python, R, Go, Kotlin, JavaScript, HTML5, SQL, Linux, Apache Spark, Ray, Airflow, Kubernetes, Machine learning, Bioinformatics, SLM/LLMs, OpenGL, Flutter/Dart</p>
+            <p>Bioinformatics, Machine learning, Genomic Data Analysis and Visualization, Joint Genotyping, Phylogenetics, Java, Scala, C/C++, Python, R, Go, Kotlin, JavaScript, HTML5, SQL, Linux, Apache Spark, Ray, Airflow, Nextflow, Kubernetes, Helm, Docker, SLM/LLMs, OpenGL, Flutter/Dart</p>
             <h2>Education</h2>
             <p><strong>2010-2014</strong></p>
             <p>University of Iceland - <a href="https://hi.is" style="color: white;">https://hi.is</a></p>
@@ -124,50 +128,71 @@
             <p>Final degree in classical piano playing with accompanying courses.</p>
         </div>
         <div class="right-column">
-            <h1 style="margin-top: 0px;">Sigmar Karl Stefánsson</h1>
-            <p class="title">Software Engineer</p>
+            <h1>Sigmar Karl Stefánsson</h1>
+            <p class="title">Software Engineer and Bioinformatician</p>
             <h2>Experience</h2>
             <div class="experience-item">
                 <p class="company">NetApp – <a href="https://netapp.com">https://netapp.com</a></p>
                 <p class="years">2023-current</p>
             </div>
-            <p>Senior software engineer in the Ocean for Apache Spark team. Implemented remote shuffle storage solution for Apache Spark on Kubernetes, significantly lowering cost for jobs running on spot nodes. Created Spark plugins for running local LLMs and registering AI functions in open-source Unity Catalog. Spark on Kubernetes optimizations, using Gluten and Spark Rapids on GPU nodes. Created Spark extensions for Ray, polyglot notebooks and Spark Connect.</p>
+            <p>Senior software engineer in the Ocean for Apache Spark team. 
+                Implemented remote shuffle storage solution for Apache Spark on Kubernetes, significantly lowering costs for jobs running on spot nodes. 
+                Created Spark plugins for running local LLMs and registering AI functions in open-source Unity Catalog. 
+                Spark on Kubernetes optimizations, using Gluten and Spark Rapids on GPU nodes. 
+                Created Spark extensions for Ray, polyglot notebooks, and Spark Connect.</p>
             
             <div class="experience-item">
                 <p class="company">Genuity Science - <a href="https://genuitysci.com">https://genuitysci.com</a></p>
                 <p class="years">2015-2023</p>
             </div>
-            <p>Lead engineer of the open source GOR genomics database engine integration into Apache Spark. Introduced hybrid SparkSQL/GOR query language allowing nested GOR datasources and tail expression in SparkSQL. Created python and scala sdk for SparkGOR. Implemented ultra-fast joint-genotyping using XGBoost on Spark.</p>
+            <p>Lead engineer of the open-source GOR genomics database engine integration into Apache Spark. 
+                Integrated parts of open-source Spark products like GATK4, Hail, and Adam into a unified GOR platform. 
+                Introduced a hybrid SparkSQL/GOR query language allowing nested GOR datasources and tail expression in SparkSQL. 
+                Created an in-house Genome Browser and Python and Scala SDK for SparkGOR. 
+                Implemented ultra-fast joint-genotyping using XGBoost on Spark.</p>
             
             <div class="experience-item">
                 <p class="company">Videntifier Technologies - <a href="https://www.videntifier.com">https://www.videntifier.com</a></p>
                 <p class="years">2014-2015</p>
             </div>
-            <p>Ported video identification code from C++ to Java and compiled existing code to webassembly. Created browser plugins, mobile and TV apps for identifying video streams.</p>
+            <p>Ported video identification code from C++ to Java and compiled existing code to WebAssembly. 
+                Created browser plugins, mobile, and TV apps for identifying video streams.</p>
             
             <div class="experience-item">
                 <p class="company">Sigmasoft</p>
                 <p class="years">2014-2015</p>
             </div>
-            <p>Founder, part-time. Phylogenetic Viewer/Editor for mobile and web. <a href="https://phylogenetictreedraw.web.app/">https://phylogenetictreedraw.web.app/</a>. Graph3D, a 3D graph visualization and editing app for mobile and web, <a href="http://graph3d.web.app/">http://graph3d.web.app/</a> using the Flutter framework.</p>
+            <p>Founder, part-time. Created the Phylogenetic Viewer/Editor for mobile and web. The tool is widely used by students and scientists.<a href="https://phylogenetictreedraw.web.app/">https://phylogenetictreedraw.web.app/</a>. Graph3D, a 3D graph visualization and editing app for mobile and web, <a href="http://graph3d.web.app/">http://graph3d.web.app/</a> using the Flutter framework.</p>
             
             <div class="experience-item">
                 <p class="company">Matis ohf - <a href="https://matis.is">https://matis.is</a></p>
                 <p class="years">2009-2014</p>
             </div>
-            <p>Software development, bioinformatics and part time Ph.D. studies in the field of microbiology.</p>
+            <p>Software development, bioinformatics, and part-time Ph.D. studies in the field of microbiology. 
+                Engaged in CRISPR research in thermophilic microbial species, investigating the structural characteristics, diversity, 
+                and distribution properties of CRISPR-Cas systems in thermophilic bacteria. 
+                Developed a signal processing unit for Roche 454 image data. 
+                Created an in-house microbial annotation platform.</p>
             
             <div class="experience-item">
                 <p class="company">deCODE genetics - <a href="https://decode.com">https://decode.com</a></p>
                 <p class="years">2001-2009</p>
             </div>
-            <p>Software development and bioinformatics for large scale human genomics data analysis and visualization using Java and C++.</p>
+            <p>Software development and bioinformatics for large-scale human genomics data analysis and visualization using Java and C++. 
+                Created a signal processing package for analyzing ABI sequencing data. 
+                Conducted Illumina SNP and copy number variation analysis. 
+                Created in-house sequence and haplotype viewers. 
+                Developed an algorithm for protein sequencing using tandem mass spectrometry. 
+                Developed a binary tree algorithm for genetic linkage calculations. 
+                Created a viewer for the Icelandic ancestry database.</p>
             
             <div class="experience-item">
                 <p class="company">Medcare/Flaga</p>
                 <p class="years">1999-2000</p>
             </div>
-            <p>Software development in the Somnologica sleep diagnostics software using Microsoft Visual Studio C++.</p>
+            <p>Software development in the Somnologica sleep diagnostics software using Microsoft Visual Studio C++. 
+                Developed charting capabilities and an interface for smartwatches.
+            </p>
             
             <h2>Publications</h2>
             <div class="experience-item">
@@ -177,20 +202,40 @@
             <p>bioRxiv. doi: <a href="https://doi.org/10.1101/2022.10.25.513331">https://doi.org/10.1101/2022.10.25.513331</a></p>
             
             <div class="experience-item">
+                <p class="publish">Going to extremes - A metagenomic journey into the dark matter of life</p>
+                <p class="years">2021</p>
+            </div>
+            <p>FEMS Microbiology Letters. doi: <a href="http://dx.doi.org/10.1093/femsle/fnab067">http://dx.doi.org/10.1093/femsle/fnab067</a></p>
+
+            <div class="experience-item">
+                <p class="publish">A genome-scale metabolic reconstruction provides insight into the metabolism of the thermophilic bacterium Rhodothermus marinus</p>
+                <p class="years">2021</p>
+            </div>
+            <p>bioRxiv. doi: <a href="https://doi.org/10.1101/2021.05.17.444423">https://doi.org/10.1101/2021.05.17.444423</a></p>
+            
+            <div class="experience-item">
                 <p class="publish">SparkGOR: A unified framework for genomic data analysis</p>
                 <p class="years">2020</p>
             </div>
             <p>ArXiv. doi: <a href="https://doi.org/10.48550/arXiv.2009.00061">https://doi.org/10.48550/arXiv.2009.00061</a></p>
+
+            <div class="experience-item">
+                <p class="publish">Divergence of Species in the Geothermal Environment</p>
+                <p class="years">2017</p>
+            </div>
+            <p> Adaption of Microbial Life to Environmental Extremes, chapter pp 41-74. doi: <a href="http://dx.doi.org/10.1007/978-3-319-48327-6_3">http://dx.doi.org/10.1007/978-3-319-48327-6_3</a></p>
             
             <div class="experience-item">
                 <p class="publish">GORpipe: a query tool for working with sequence data based on a Genomic Ordered Relational (GOR) architecture</p>
                 <p class="years">2016</p>
             </div>
             <p>Bioinformatics. doi: <a href="https://doi.org/10.1093/bioinformatics/btw199">https://doi.org/10.1093/bioinformatics/btw199</a></p>
+
             <div class="experience-item">
-                <p class="publish">GORpipe: a query tool for working with sequence data based on a Genomic Ordered Relational (GOR) architecture</p>
-                <p class="years">2016</p>
+                <p class="publish">An investigation of multiple self-organizing feature maps for classification of multisource data</p>
+                <p class="years">2002</p>
             </div>
+            <p>IEEE International Geoscience and Remote Sensing Symposium. doi: <a href="http://dx.doi.org/10.1109/IGARSS.2002.1025084">http://dx.doi.org/10.1109/IGARSS.2002.1025084</a></p>
         </div>
     </div>
 </body>
